@@ -1,6 +1,10 @@
 $(document).ready(function(){
+console.log("Estamos listos");
 
-    $(".menus").sortable();
+    $('.saludo').hide(3000).show(1000);
+    //$(".menus").sortable();
+
+    
      //MOVER ELEMENTO POR LA PAGINA
     $('.elemento').draggable();
     //REDIMENSIONAR
@@ -12,6 +16,7 @@ $(document).ready(function(){
         $("#simple").show();
         $("#lewis").show();
     });
+    
     $("#mostrar-rwd").click(function(){
         $("#meri").show();
         $("#mio").hide();
